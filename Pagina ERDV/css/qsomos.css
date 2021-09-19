@@ -1,0 +1,49 @@
+#tituquien {
+	font-family: Century Gothic;
+	font-size: 30px;
+	margin-bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+
+hr {
+	width: 30%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#principal {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 17px;
+}
+
+#secundario {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 17px;
+}
+
+#terciario {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 17px;
+}
+
+#cuarto {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 17px;
+}
+
+#vector {
+	margin: 3%;
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 200px) {
+	.parrafo {
+		margin: 7%;
+	}
+}

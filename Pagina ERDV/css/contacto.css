@@ -1,0 +1,109 @@
+#tituloconsulta {
+	color: black;
+	font-size: 20px;
+	font-family: Century Gothic;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+li {
+	margin: 1%;
+	list-style: none;
+}
+
+.dato {
+	width: 50%;
+	height: auto;
+	outline:none;
+	font-family: helvetica;
+	padding: 1%;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+input::placeholder {
+  color: grey;
+  padding: 1%;
+}
+
+label {
+	color: white;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+textarea:placeholder {
+  	font-size: 15px;
+}
+
+textarea {
+	font-size: 18px;
+	width: 50%;
+	padding: 0.5%;
+	font-family: helvetica;
+	height: 200px;
+	outline:none;
+	border-bottom: 1px solid #000;
+}
+
+#btnenviar {
+	color: black;
+	width: 20%;
+	height: 50px;
+	font-size: 25px;
+	font-family: helvetica;
+	letter-spacing: 3px;
+	transition: 0.5s;
+	animation: 0.5s;
+	background-color: white;
+	border: none;
+	margin-bottom: 5%;
+}
+
+#btnenviar:hover {
+	background-color: black;
+	color: white;
+	transition-duration: 0.5s;
+	border: none;
+	width: 50%;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 300px) {
+	.dato {
+		width: 90%;
+		margin-bottom: 10%;
+	}
+
+	textarea {
+		width: 90%;
+	}
+
+	#btnenviar {
+		width: 50%;
+	}
+
+	#btnenviar:hover {
+		width: 90%;
+	}
+}

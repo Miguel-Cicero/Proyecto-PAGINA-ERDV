@@ -1,0 +1,23 @@
+#formulariosubir {
+	display: inline-block;
+	width: 100%;
+}
+
+.btn_ingreso {
+	outline: none;
+	border: none;
+	padding: 1%;
+	width: 50%;
+	font-size: 25px;
+	border-bottom: solid 1px black;
+	font-family: Century Gothic;
+}
+
+::placeholder {
+	font-size: 20px;
+}
+
+.selecimagen {
+	font-family: Century Gothic;
+	font-size: 25px;
+}

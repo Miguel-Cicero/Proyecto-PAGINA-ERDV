@@ -1,0 +1,26 @@
+#opciones {
+	display: inline-block;
+	width: 100%;
+	margin-top: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.opcion {
+	background-color: black;
+	color: white;
+	width: 50%;
+	text-align: center;
+	font-size: 20px;
+	font-family: Century Gothic;
+	padding: 1%;
+	border: solid 1px white;
+}
+
+.opcion:hover {
+	background-color: white;
+	color: black;
+	border: solid 1px black;
+}

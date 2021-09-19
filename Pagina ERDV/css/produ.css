@@ -1,0 +1,47 @@
+.ssublistado {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+}
+
+.ssublistado > .card {
+  width: 350px;
+  height: 450px;
+}
+
+.card {
+  background-color: white;
+  margin: 1%;
+  border-radius: 10px;
+  font-family: Century Gothic;
+  overflow: hidden;
+  color: black;
+  box-shadow: 3px 3px 15px black;
+  transition: 0.2s;
+  margin-bottom: 3%;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.iimgarticulo {
+  width: 100%;
+  height: 70%;
+}
+
+#ddatos {
+  margin: 4%;
+  text-align: center;
+}
+
+#precio {
+  font-size: 250%;
+}
+
+#codigoprod {
+  color: red;
+}
